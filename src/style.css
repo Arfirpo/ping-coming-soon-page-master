@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root{
+    /* Primary */
+    --Blue: hsl(223, 87%, 63%);
+    /* Secondary */
+    --PaleBlue: hsl(223, 100%, 88%);
+    --LightRed: hsl(354, 100%, 66%);
+    /* Neutral */
+    --Gray: hsl(0, 0%, 59%);
+    --VeryDarkBlue: hsl(209, 33%, 12%);
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container{
+    width: 750px;
+}
+.page__header{
+    height: 18rem;
+    
+}
+.page__header__logo{
+    width: 109px;
+    height: 35px;
+    margin: 168px 330px 88px;
+}
+.page__container{
+    width: 35.25rem;
+    margin: 0 auto;
+}
+.page__section-1{
+    text-align: center;
+}
+.page____section-1__title{
+    font-size: 2.5rem;
+    margin-bottom: 3.125rem;
+    font-weight: 700;
+}
+span{
+    color: var(--Gray);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.page____section-1__subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 4.0625rem;
+    font-weight: 400; 
+}
+.page____section-1__subscription{
+    height: 11.5rem;
+    margin: 0 auto 8.75rem;
+}
+.page____section-1__subscription__email,
+.page____section-1__subscription__button{
+    width: 100%;
+    height: 4.875rem;
+    border-radius: 3.125rem;
+    outline: none;
+    font-size: 22px;
+}
+.page____section-1__subscription__email{
+    border: 2px solid var(--PaleBlue);
+    padding: 32px 266px 26px 62px;
+    margin-bottom: 1.25rem;
+}
+.page____section-1__subscription__email::placeholder{
+    color: var(--PaleBlue);
+}
+.page____section-1__subscription__button{
+    background-color: var(--Blue);
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+.page__section-2{
+    height: 24.5rem;
+    margin-bottom: 240px;
+}
+.page__section-2__image{
+    width: 100%;
+    height: 100%;
+}
+.page__footer {
+    height: 13.5rem;
+    font-size: 1.25rem;
+    color: var(--Gray);
+    text-align: center;
+    margin-bottom: 0;
+}
+.page__footer a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+.page__footer__social-icons{
+    width: 15rem;
+    height: 3.875rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+#icons{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid var(--Gray);
+    padding: 10px;
+}
