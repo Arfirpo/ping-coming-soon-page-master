@@ -25,7 +25,6 @@ body{
 .page-container{    
     width: 40.3125rem;
     margin: 10.5rem auto 14.875rem;
-    overflow: hidden;
 }
 .page__suscription{
     height: 30.25rem;
@@ -34,45 +33,45 @@ body{
 }
 .page__suscription__logo-container{
     position: relative;
-    height: 123px;
+    height: 7.6875rem;
 }
 .page__suscription__logo{
     position: absolute;
-    width: 111px;
-    height: 2.3125rem;
-    left: 265px;
+    width: 9.375rem;
+    height: 3.125rem;
+    left: 17.1875rem;
 }
 .page__suscription__title{
-    font-size: 44px;
-    margin-bottom: 40px;
+    font-size: 2.75rem;
+    margin-bottom: 2.5rem;
 }
 .page__suscription__title--gray{
     color: var(--Gray);
     font-weight: 400;
 }
 .page__suscription__subtitle{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 .page__suscription__form{
-    width: 566px;
-    height: 174px;
+    width: 35.375rem;
+    height: 10.875rem;
     margin: 0 auto;
 }
 .page__suscription__form__input,
 .page__suscription__form__button{
-    width: 562px;
-    height: 78px;
-    border-radius: 50px;
+    width: 35.125rem;
+    height: 4.875rem;
+    border-radius: 3.125rem;
     outline: none;
     font-family: 'Libre Franklin', sans-serif;
 }
 .page__suscription__form__input{
-    margin-bottom: 18px;
-    border: 2px solid var(--PaleBlue);
-    font-size: 24px;
-    padding-left: 30px; 
+    margin-bottom: 1.125rem;
+    border: .125rem solid var(--PaleBlue);
+    font-size: 1.5rem;
+    padding-left: 1.875rem; 
 }
 .page__suscription__form__input::placeholder{
     color: var(--PaleBlue);
@@ -81,7 +80,7 @@ body{
     border: none;
     background: var(--Blue);
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .page__preview{
@@ -94,27 +93,80 @@ body{
 .page__footer{
     width: 40.3125rem;
     text-align: center;
-    font-size: 18px;
-    margin: 0 auto 3.8125rem;
-    overflow: hidden;
+    font-size: 1.125rem;
+    margin: 0 auto;
 }
 .footer__social-icons-container{
-    height: 62px;
+    height: 3.875rem;
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-bottom: 56px;
-    gap: 24px;
+    margin-bottom: 3.5rem;
+    gap: 1.5rem;
 }
 #icon{
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
-    border: 1px solid var(--Gray);
-    padding: 10px;
+    border: .0625rem solid var(--Gray);
+    padding: .625rem;
     fill: var(--Blue);
 }
 .footer__attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+}
+@media (min-width:75rem){
+    .page-container{
+        height: 46.875rem;
+        margin: 5.3125rem auto 4.125rem;
+    }
+    .page__suscription{
+        height: 18.75rem;
+        margin-bottom: 5rem;
+    }
+    .page__suscription__logo-container{
+        height: 5.3125rem;
+    }
+    .page__suscription__logo{
+        width: 6.3125rem;
+        height: 2.4375rem;
+    }
+    .page__suscription__title{
+        font-size: 3.125rem;
+        margin-bottom: 1.25rem;
+    }
+    .page__suscription__subtitle{
+        font-size: 1.3125rem;
+        margin-bottom: 2.5rem;
+    }
+    .page__suscription__form{
+        margin: 0;
+        width: 100%;
+        height: 3.5rem;
+    } 
+    .page__suscription__form__input{
+        width: 26.25rem;
+        height: 100%;
+        font-size: 1rem;
+        margin-right: .875rem;
+    }
+    .page__suscription__form__button{
+        width: 12.5rem;
+        height: 100%;
+    }
+    .page__footer{
+        font-size: .75rem;
+        margin-bottom: 0;
+    }
+    .footer__social-icons-container{
+        height: 2rem;
+        margin-bottom: 1.375rem;
+    }
+    #icon{
+        width: 2rem;
+        height: 2rem;
+        padding: .375rem;
+    }
+
 }
