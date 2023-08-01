@@ -10,7 +10,6 @@
     --Gray: hsl(0, 0%, 59%);
     --VeryDarkBlue: hsl(209, 33%, 12%);
 }
-
 *,
 *::before,
 *::after{
@@ -18,115 +17,110 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.container{
-    width: 750px;
-    height: 101.5rem;
+.page-container{    
+    width: 40.3125rem;
+    margin: 10.5rem auto 14.875rem;
     overflow: hidden;
 }
-.page__header{
-    height: 18rem;
-    
-}
-.page__header__logo{
-    width: 109px;
-    height: 35px;
-    margin: 168px 330px 88px;
-}
-.page__container{
-    width: 644px;
-    margin: 0 auto;
-}
-.page__section-1{
+.page__suscription{
+    height: 30.25rem;
+    margin-bottom: 8.75rem;
     text-align: center;
 }
-.page____section-1__title{
-    font-size: 2.5rem;
-    margin-bottom: 38px;
-    font-weight: 700;
+.page__suscription__logo-container{
+    position: relative;
+    height: 123px;
 }
-span{
+.page__suscription__logo{
+    position: absolute;
+    width: 111px;
+    height: 2.3125rem;
+    left: 265px;
+}
+.page__suscription__title{
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+.page__suscription__title--gray{
     color: var(--Gray);
-    font-size: 2.5rem;
     font-weight: 400;
 }
-.page____section-1__subtitle{
-    font-size: 1.5rem;
-    margin-bottom: 3.875rem;
-    font-weight: 400; 
+.page__suscription__subtitle{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 60px;
 }
-.page____section-1__subscription{
-    height: 11.5rem;
-    margin: 0 auto 8.75rem;
+.page__suscription__form{
+    width: 566px;
+    height: 174px;
+    margin: 0 auto;
 }
-.page____section-1__subscription__email,
-.page____section-1__subscription__button{
-    width: 560px;
-    height: 4.875rem;
-    border-radius: 3.125rem;
+.page__suscription__form__input,
+.page__suscription__form__button{
+    width: 562px;
+    height: 78px;
+    border-radius: 50px;
     outline: none;
-    font-size: 22px;
+    font-family: 'Libre Franklin', sans-serif;
 }
-.page____section-1__subscription__email{
+.page__suscription__form__input{
+    margin-bottom: 18px;
     border: 2px solid var(--PaleBlue);
-    padding: 32px 266px 26px 62px;
-    margin-bottom: 1.25rem;
+    font-size: 24px;
+    padding-left: 30px; 
 }
-.page____section-1__subscription__email::placeholder{
+.page__suscription__form__input::placeholder{
     color: var(--PaleBlue);
 }
-.page____section-1__subscription__button{
-    background-color: var(--Blue);
+.page__suscription__form__button{
     border: none;
-    text-align: center;
-    font-weight: 600;
-    color: #fff;
+    background: var(--Blue);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
 }
-.page__section-2{
-    width: 40.25rem;
-    height: 24.5rem;
-    margin: 0 auto 14.5rem;
+.page__preview{
+    height: 24.6875rem;
 }
-.page__section-2__image{
+.page__preview__img{
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
-.page__footer {
-    height: 13.5rem;
-    font-size: 1.25rem;
-    color: var(--Gray);
+.page__footer{
+    width: 40.3125rem;
     text-align: center;
-    margin-bottom: 0;
+    font-size: 18px;
+    margin: 0 auto 3.8125rem;
+    overflow: hidden;
 }
-.page__footer__attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-}
-.page__footer__social-icons{
-    width: 15rem;
-    height: 3.875rem;
-    margin: 0 auto;
+.footer__social-icons-container{
+    height: 62px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
     margin-bottom: 56px;
+    gap: 24px;
 }
-.page__footer__copyright{
-    margin-bottom: .625rem;
-}
-#icons{
+#icon{
     width: 64px;
     height: 64px;
-    border-radius: 50px;
+    border-radius: 50%;
     border: 1px solid var(--Gray);
     padding: 10px;
     fill: var(--Blue);
 }
+.footer__attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+
+
+
+
+@media (min-width: 62.5rem){
