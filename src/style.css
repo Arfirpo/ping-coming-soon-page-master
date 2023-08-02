@@ -75,7 +75,7 @@ body{
 }
 .suscription__error-message{
     color: var(--LightRed);
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
 }
 .page__suscription__form__input::placeholder{
     color: var(--PaleBlue);
@@ -86,6 +86,9 @@ body{
     color: white;
     font-size: 1.5rem;
     font-weight: 400;
+}
+.page__suscription__form__button:hover{
+    cursor: pointer;
 }
 .page__preview{
     height: 24.6875rem;
@@ -116,6 +119,10 @@ body{
     padding: .625rem;
     fill: var(--Blue);
 }
+#icon:hover{
+    background-color: var(--Blue);
+    fill: white;
+}
 .footer__attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
@@ -126,8 +133,8 @@ body{
         margin: 5.3125rem auto 4.125rem;
     }
     .page__suscription{
-        height: 300px;
-        margin: 0 0 80px 0;
+        height: 18.75rem;
+        margin: 0 0 5rem 0;
     }
     .page__suscription__logo-container{
         height: 5.3125rem;
@@ -152,13 +159,17 @@ body{
     } 
     .page__suscription__form__input{
         width: 26.25rem;
-        height: 56px;
+        height: 3.5rem;
         font-size: 1rem;
-        margin-right: 14px;
+        margin-right: .875rem;
+        position: absolute;
+        left: 0;
     }
     .page__suscription__form__button{
         width: 12.5rem;
-        height: 56px;
+        height: 3.5rem;
+        position: absolute;
+        right: 0;
     }
     .page__footer{
         font-size: .75rem;
@@ -174,12 +185,12 @@ body{
         padding: .375rem;
     }
     .suscription__error-message{
-        font-size: 12px;
+        font-size: .75rem;
         text-align: left;
         margin: 0;
         position: absolute;
-        left: 32px;
-        top: 78px;
+        left: 2rem;
+        top: 4.875rem;
         display: inline;
     }
 }
