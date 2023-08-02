@@ -14,7 +14,12 @@ function validateEmail(valueInput, divInput, divError){
     if(regExp.test(valueInput) == true){
         hideError(divInput, divError);
     } else{
-        showError(divInput, divError, `Please provide a valid email address`);
+        if(emailInput.value == ""){
+            showError(divInput, divError, `Whoops! It looks like you forgot to add your email`);
+        } else {
+            showError(divInput, divError, `Please provide a valid email address`);
+        }
+        
     }
 }
 
