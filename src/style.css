@@ -73,6 +73,10 @@ body{
     font-size: 1.5rem;
     padding-left: 1.875rem; 
 }
+.suscription__error-message{
+    color: var(--LightRed);
+    margin-bottom: 48px;
+}
 .page__suscription__form__input::placeholder{
     color: var(--PaleBlue);
 }
@@ -118,12 +122,12 @@ body{
 }
 @media (min-width:75rem){
     .page-container{
-        height: 46.875rem;
+        min-height: 46.875rem;
         margin: 5.3125rem auto 4.125rem;
     }
     .page__suscription{
-        height: 18.75rem;
-        margin-bottom: 5rem;
+        height: 300px;
+        margin: 0 0 80px 0;
     }
     .page__suscription__logo-container{
         height: 5.3125rem;
@@ -143,17 +147,18 @@ body{
     .page__suscription__form{
         margin: 0;
         width: 100%;
-        height: 3.5rem;
+        min-height: 3.5rem;
+        position: relative;
     } 
     .page__suscription__form__input{
         width: 26.25rem;
-        height: 100%;
+        height: 56px;
         font-size: 1rem;
-        margin-right: .875rem;
+        margin-right: 14px;
     }
     .page__suscription__form__button{
         width: 12.5rem;
-        height: 100%;
+        height: 56px;
     }
     .page__footer{
         font-size: .75rem;
@@ -168,5 +173,13 @@ body{
         height: 2rem;
         padding: .375rem;
     }
-
+    .suscription__error-message{
+        font-size: 12px;
+        text-align: left;
+        margin: 0;
+        position: absolute;
+        left: 32px;
+        top: 78px;
+        display: inline;
+    }
 }
