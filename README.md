@@ -34,7 +34,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Design](./src/images/desktop-design.JPG)
-![Desktop Empty Email Message](./src/images/desktop-empty-email-message.JPG)
+![Desktop Empty Email Message](./src/images/empty-email-message.JPG)
 ![Desktop Invalid Email Message](./src/images/desktop-invalid-email-message.JPG)
 ![Mobile Design](./src/images/mobile-design.JPG)
 ![Mobile Design Hover State](./src/images/mobile-design-hover-state.JPG)
