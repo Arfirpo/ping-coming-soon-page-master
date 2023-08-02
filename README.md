@@ -34,11 +34,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Design](./src/images/desktop-design.JPG)
-![Empty Message](./src/images/empty-email-message.png)
 ![Desktop Invalid Email Message](./src/images/desktop-invalid-email-message.JPG)
 ![Mobile Design](./src/images/mobile-design.JPG)
 ![Mobile Design Hover State](./src/images/mobile-design-hover-state.JPG)
 ![Mobile Design Invalid Email Message](./src/images/mobile-invalid-email-message.JPG)
+![Empty Message](./src/images/empty-email-message.png)
 
 ### Links
 
